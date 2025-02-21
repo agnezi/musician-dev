@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import Page from '@/app/scales/page';
-import { toneNow, toneTriggerAttackRelease } from '../../../../jest.setup';
+import { toneNowMock, toneTriggerAttackRelease } from '../../../../jest.setup';
 
 describe('scales page', () => {
   it('renders scales page unchanged', () => {
@@ -12,7 +12,6 @@ describe('scales page', () => {
     render(<Page />);
 
     const heading = screen.getByRole('heading', { level: 1 });
-
     expect(heading).toBeInTheDocument();
   });
 
@@ -28,6 +27,7 @@ describe('scales page', () => {
 
     const buttons = screen.getAllByRole('button');
     fireEvent.click(buttons[0]);
+    expect(toneNowMock).toHaveBeenCalledWith();
     expect(toneTriggerAttackRelease).toHaveBeenCalledWith('C4', '8n', 1234);
   });
 });

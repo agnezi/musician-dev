@@ -63,7 +63,6 @@ export default function Page() {
           {majorScales.map(scale => (
             <li key={scale.scaleName}>
               <button
-                role="button"
                 value={scale.scaleName}
                 className={styles.scaleButton}
                 onClick={() => playScaleOf(scale.notes)}
