@@ -14,12 +14,12 @@ const eslintConfig = [
     'next/core-web-vitals',
     'next/typescript',
     'plugin:jsx-a11y/recommended',
-    'plugin:prettier/recommended',
-    'prettier'
+    'plugin:prettier/recommended'
   ),
   {
     rules: {
       'prettier/prettier': 'error',
+      '@typescript-eslint/no-unused-vars': ['error'],
     },
   },
 ];
