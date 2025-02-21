@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scales page renders scales page unchanged 1`] = `
+<div>
+  <div
+    class="page"
+  >
+    <header>
+      <h1>
+        Major Natural scales notes
+      </h1>
+    </header>
+    <main
+      class="main"
+    >
+      <ol>
+        <li>
+          <button
+            class="scaleButton"
+            role="button"
+            value="C Major"
+          >
+            C Major
+          </button>
+          <span>
+            C4
+             
+            -
+             
+          </span>
+          <span>
+            D4
+             
+            -
+             
+          </span>
+          <span>
+            E4
+             
+            -
+             
+          </span>
+          <span>
+            F4
+             
+            -
+             
+          </span>
+          <span>
+            G4
+             
+            -
+             
+          </span>
+          <span>
+            A4
+             
+            -
+             
+          </span>
+          <span>
+            B4
+             
+             
+          </span>
+        </li>
+        <li>
+          <button
+            class="scaleButton"
+            role="button"
+            value="D Major"
+          >
+            D Major
+          </button>
+          <span>
+            D4
+             
+            -
+             
+          </span>
+          <span>
+            E4
+             
+            -
+             
+          </span>
+          <span>
+            F#4
+             
+            -
+             
+          </span>
+          <span>
+            G4
+             
+            -
+             
+          </span>
+          <span>
+            A4
+             
+            -
+             
+          </span>
+          <span>
+            B4
+             
+            -
+             
+          </span>
+          <span>
+            C#5
+             
+             
+          </span>
+        </li>
+        <li>
+          <button
+            class="scaleButton"
+            role="button"
+            value="E Major"
+          >
+            E Major
+          </button>
+          <span>
+            E4
+             
+            -
+             
+          </span>
+          <span>
+            F#4
+             
+            -
+             
+          </span>
+          <span>
+            G#4
+             
+            -
+             
+          </span>
+          <span>
+            A4
+             
+            -
+             
+          </span>
+          <span>
+            B4
+             
+            -
+             
+          </span>
+          <span>
+            C#5
+             
+            -
+             
+          </span>
+          <span>
+            D#5
+             
+             
+          </span>
+        </li>
+        <li>
+          <button
+            class="scaleButton"
+            role="button"
+            value="F Major"
+          >
+            F Major
+          </button>
+          <span>
+            F4
+             
+            -
+             
+          </span>
+          <span>
+            G4
+             
+            -
+             
+          </span>
+          <span>
+            A4
+             
+            -
+             
+          </span>
+          <span>
+            Bb4
+             
+            -
+             
+          </span>
+          <span>
+            C5
+             
+            -
+             
+          </span>
+          <span>
+            D5
+             
+            -
+             
+          </span>
+          <span>
+            E5
+             
+             
+          </span>
+        </li>
+        <li>
+          <button
+            class="scaleButton"
+            role="button"
+            value="G Major"
+          >
+            G Major
+          </button>
+          <span>
+            G4
+             
+            -
+             
+          </span>
+          <span>
+            A4
+             
+            -
+             
+          </span>
+          <span>
+            B4
+             
+            -
+             
+          </span>
+          <span>
+            C5
+             
+            -
+             
+          </span>
+          <span>
+            D5
+             
+            -
+             
+          </span>
+          <span>
+            E5
+             
+            -
+             
+          </span>
+          <span>
+            F#5
+             
+             
+          </span>
+        </li>
+        <li>
+          <button
+            class="scaleButton"
+            role="button"
+            value="A Major"
+          >
+            A Major
+          </button>
+          <span>
+            A4
+             
+            -
+             
+          </span>
+          <span>
+            B4
+             
+            -
+             
+          </span>
+          <span>
+            C#5
+             
+            -
+             
+          </span>
+          <span>
+            D5
+             
+            -
+             
+          </span>
+          <span>
+            E5
+             
+            -
+             
+          </span>
+          <span>
+            F#5
+             
+            -
+             
+          </span>
+          <span>
+            G#5
+             
+             
+          </span>
+        </li>
+        <li>
+          <button
+            class="scaleButton"
+            role="button"
+            value="B Major"
+          >
+            B Major
+          </button>
+          <span>
+            B4
+             
+            -
+             
+          </span>
+          <span>
+            C#5
+             
+            -
+             
+          </span>
+          <span>
+            D#5
+             
+            -
+             
+          </span>
+          <span>
+            E5
+             
+            -
+             
+          </span>
+          <span>
+            F#5
+             
+            -
+             
+          </span>
+          <span>
+            G#5
+             
+            -
+             
+          </span>
+          <span>
+            A#5
+             
+             
+          </span>
+        </li>
+      </ol>
+    </main>
+  </div>
+</div>
+`;
