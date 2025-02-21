@@ -9,5 +9,5 @@ jest.mock('tone', () => ({
       triggerAttackRelease: toneTriggerAttackRelease,
     }),
   })),
-  now: toneNow
+  now: toneNow,
 }));

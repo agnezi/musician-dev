@@ -28,10 +28,6 @@ describe('scales page', () => {
 
     const buttons = screen.getAllByRole('button');
     fireEvent.click(buttons[0]);
-    expect(toneTriggerAttackRelease).toHaveBeenCalledWith(
-      'C4',
-      '8n',
-      1234
-    );
+    expect(toneTriggerAttackRelease).toHaveBeenCalledWith('C4', '8n', 1234);
   });
 });
