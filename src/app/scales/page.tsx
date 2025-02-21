@@ -2,11 +2,12 @@
 
 import styles from './page.module.css';
 import { Note } from '@/types/note.type';
+import { useState } from 'react';
 import * as Tone from 'tone';
 
-const synth = new Tone.Synth().toDestination();
-
 export default function Page() {
+  const [isAudioReady, setIsAudioReady] = useState(false);
+
   const cMajorScale: Note[] = ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'B4'];
   const dMajorScale: Note[] = ['D4', 'E4', 'F#4', 'G4', 'A4', 'B4', 'C#5'];
   const eMajorScale: Note[] = ['E4', 'F#4', 'G#4', 'A4', 'B4', 'C#5', 'D#5'];
@@ -46,7 +47,13 @@ export default function Page() {
     },
   ];
 
-  function playScaleOf(notes: Note[]) {
+  async function playScaleOf(notes: Note[]) {
+    if (!isAudioReady) {
+      await Tone.start();
+      setIsAudioReady(true);
+    }
+
+    const synth = new Tone.Synth().toDestination();
     const now = Tone.now();
     notes.forEach((note, index) => {
       synth.triggerAttackRelease(note, '8n', now + index * 0.5);
