@@ -3,7 +3,7 @@ import Page from '@/app/scales/page';
 import {
   toneNowMock,
   toneStartMock,
-  toneTriggerAttackRelease,
+  toneTriggerAttackReleaseMock,
 } from '../../../../jest.setup';
 
 describe('scales page', () => {
@@ -35,7 +35,7 @@ describe('scales page', () => {
       expect(toneStartMock).toHaveBeenCalledTimes(1);
     });
     expect(toneNowMock).toHaveBeenCalledTimes(1);
-    expect(toneTriggerAttackRelease).toHaveBeenNthCalledWith(
+    expect(toneTriggerAttackReleaseMock).toHaveBeenNthCalledWith(
       1,
       'C4',
       '8n',

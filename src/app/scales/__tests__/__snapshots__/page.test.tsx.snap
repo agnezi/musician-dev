@@ -359,6 +359,13 @@ exports[`scales page renders scales page unchanged 1`] = `
         </li>
       </ol>
     </main>
+    <footer>
+      <a
+        href="/"
+      >
+        Back to home
+      </a>
+    </footer>
   </div>
 </div>
 `;
