@@ -2,48 +2,45 @@
 
 import styles from './page.module.css';
 import { Note } from '@/types/note.type';
+import { naturalScales } from '@/utils/scales';
+import Link from 'next/link';
 import { useState } from 'react';
 import * as Tone from 'tone';
 
 export default function Page() {
   const [isAudioReady, setIsAudioReady] = useState(false);
 
-  const cMajorScale: Note[] = ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'B4'];
-  const dMajorScale: Note[] = ['D4', 'E4', 'F#4', 'G4', 'A4', 'B4', 'C#5'];
-  const eMajorScale: Note[] = ['E4', 'F#4', 'G#4', 'A4', 'B4', 'C#5', 'D#5'];
-  const fMajorScale: Note[] = ['F4', 'G4', 'A4', 'Bb4', 'C5', 'D5', 'E5'];
-  const gMajorScale: Note[] = ['G4', 'A4', 'B4', 'C5', 'D5', 'E5', 'F#5'];
-  const aMajorScale: Note[] = ['A4', 'B4', 'C#5', 'D5', 'E5', 'F#5', 'G#5'];
-  const bMajorScale: Note[] = ['B4', 'C#5', 'D#5', 'E5', 'F#5', 'G#5', 'A#5'];
-
-  const majorScales: Array<{ scaleName: string; notes: Note[] }> = [
+  const majorScales: Array<{
+    scaleName: string;
+    notes: Note[];
+  }> = [
     {
       scaleName: 'C Major',
-      notes: cMajorScale,
+      notes: naturalScales.cMajor,
     },
     {
       scaleName: 'D Major',
-      notes: dMajorScale,
+      notes: naturalScales.dMajor,
     },
     {
       scaleName: 'E Major',
-      notes: eMajorScale,
+      notes: naturalScales.eMajor,
     },
     {
       scaleName: 'F Major',
-      notes: fMajorScale,
+      notes: naturalScales.fMajor,
     },
     {
       scaleName: 'G Major',
-      notes: gMajorScale,
+      notes: naturalScales.gMajor,
     },
     {
       scaleName: 'A Major',
-      notes: aMajorScale,
+      notes: naturalScales.aMajor,
     },
     {
       scaleName: 'B Major',
-      notes: bMajorScale,
+      notes: naturalScales.bMajor,
     },
   ];
 
@@ -85,6 +82,9 @@ export default function Page() {
           ))}
         </ol>
       </main>
+      <footer>
+        <Link href="/">Back to home</Link>
+      </footer>
     </div>
   );
 }
