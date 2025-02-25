@@ -1,0 +1,665 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chords page renders chords page unchanged 1`] = `
+<div>
+  <div
+    class="page"
+  >
+    <header>
+      <h1>
+        Major Natural scale chords
+      </h1>
+    </header>
+    <main
+      class="main"
+    >
+      <ol>
+        <li>
+          C Major
+          <ul
+            class="chordListPlayable"
+          >
+            <li>
+              <button
+                class="scaleButton"
+                value="C major chord"
+              >
+                C major chord
+              </button>
+              <br />
+              <span>
+                C4-E4-G4
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="D minor chord"
+              >
+                D minor chord
+              </button>
+              <br />
+              <span>
+                D4-F4-A4
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="E minor chord"
+              >
+                E minor chord
+              </button>
+              <br />
+              <span>
+                E4-G4-B4
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="F major chord"
+              >
+                F major chord
+              </button>
+              <br />
+              <span>
+                F4-A4-C5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="G major chord"
+              >
+                G major chord
+              </button>
+              <br />
+              <span>
+                G4-B4-D5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="A minor chord"
+              >
+                A minor chord
+              </button>
+              <br />
+              <span>
+                A4-C5-E5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="B semi-diminished chord"
+              >
+                B semi-diminished chord
+              </button>
+              <br />
+              <span>
+                B4-D5-F5
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          D Major
+          <ul
+            class="chordListPlayable"
+          >
+            <li>
+              <button
+                class="scaleButton"
+                value="D major chord"
+              >
+                D major chord
+              </button>
+              <br />
+              <span>
+                D4-F#4-A4
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="E minor chord"
+              >
+                E minor chord
+              </button>
+              <br />
+              <span>
+                E4-G4-B4
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="F# minor chord"
+              >
+                F# minor chord
+              </button>
+              <br />
+              <span>
+                F#4-A4-C#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="G major chord"
+              >
+                G major chord
+              </button>
+              <br />
+              <span>
+                G4-B4-D5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="A major chord"
+              >
+                A major chord
+              </button>
+              <br />
+              <span>
+                A4-C#5-E5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="B minor chord"
+              >
+                B minor chord
+              </button>
+              <br />
+              <span>
+                B4-D5-F#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="C# semi-diminished chord"
+              >
+                C# semi-diminished chord
+              </button>
+              <br />
+              <span>
+                C#5-E5-G5
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          E Major
+          <ul
+            class="chordListPlayable"
+          >
+            <li>
+              <button
+                class="scaleButton"
+                value="E major chord"
+              >
+                E major chord
+              </button>
+              <br />
+              <span>
+                E4-G#4-B4
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="F# minor chord"
+              >
+                F# minor chord
+              </button>
+              <br />
+              <span>
+                F#4-A4-C#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="G# minor chord"
+              >
+                G# minor chord
+              </button>
+              <br />
+              <span>
+                G#4-B4-D#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="A major chord"
+              >
+                A major chord
+              </button>
+              <br />
+              <span>
+                A4-C#5-E5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="B major chord"
+              >
+                B major chord
+              </button>
+              <br />
+              <span>
+                B4-D#5-F#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="C# minor chord"
+              >
+                C# minor chord
+              </button>
+              <br />
+              <span>
+                C#5-E5-G#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="D# semi-diminished chord"
+              >
+                D# semi-diminished chord
+              </button>
+              <br />
+              <span>
+                D#5-F#5-A5
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          F Major
+          <ul
+            class="chordListPlayable"
+          >
+            <li>
+              <button
+                class="scaleButton"
+                value="F major chord"
+              >
+                F major chord
+              </button>
+              <br />
+              <span>
+                F4-A4-C5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="G minor chord"
+              >
+                G minor chord
+              </button>
+              <br />
+              <span>
+                G4-Bb4-D5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="A minor chord"
+              >
+                A minor chord
+              </button>
+              <br />
+              <span>
+                A4-C5-E5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="Bb major chord"
+              >
+                Bb major chord
+              </button>
+              <br />
+              <span>
+                Bb4-D5-F5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="C major chord"
+              >
+                C major chord
+              </button>
+              <br />
+              <span>
+                C5-E5-G5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="D minor chord"
+              >
+                D minor chord
+              </button>
+              <br />
+              <span>
+                D5-F5-A5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="E semi-diminished chord"
+              >
+                E semi-diminished chord
+              </button>
+              <br />
+              <span>
+                E5-G5-Bb5
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          G Major
+          <ul
+            class="chordListPlayable"
+          >
+            <li>
+              <button
+                class="scaleButton"
+                value="G major chord"
+              >
+                G major chord
+              </button>
+              <br />
+              <span>
+                G4-B4-D5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="A minor chord"
+              >
+                A minor chord
+              </button>
+              <br />
+              <span>
+                A4-C5-E5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="B minor chord"
+              >
+                B minor chord
+              </button>
+              <br />
+              <span>
+                B4-D5-F#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="C major chord"
+              >
+                C major chord
+              </button>
+              <br />
+              <span>
+                C5-E5-G5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="D major chord"
+              >
+                D major chord
+              </button>
+              <br />
+              <span>
+                D5-F#5-A5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="E minor chord"
+              >
+                E minor chord
+              </button>
+              <br />
+              <span>
+                E5-G5-B5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="F# semi-diminished chord"
+              >
+                F# semi-diminished chord
+              </button>
+              <br />
+              <span>
+                F#5-A5-C6
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          A Major
+          <ul
+            class="chordListPlayable"
+          >
+            <li>
+              <button
+                class="scaleButton"
+                value="A major chord"
+              >
+                A major chord
+              </button>
+              <br />
+              <span>
+                A4-C#5-E5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="B minor chord"
+              >
+                B minor chord
+              </button>
+              <br />
+              <span>
+                B4-D5-F#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="C# minor chord"
+              >
+                C# minor chord
+              </button>
+              <br />
+              <span>
+                C#5-E5-G#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="D major chord"
+              >
+                D major chord
+              </button>
+              <br />
+              <span>
+                D5-F#5-A5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="E major chord"
+              >
+                E major chord
+              </button>
+              <br />
+              <span>
+                E5-G#5-B5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="F# minor chord"
+              >
+                F# minor chord
+              </button>
+              <br />
+              <span>
+                F#5-A5-C#6
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="G# semi-diminished chord"
+              >
+                G# semi-diminished chord
+              </button>
+              <br />
+              <span>
+                G#5-B5-D6
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          B Major
+          <ul
+            class="chordListPlayable"
+          >
+            <li>
+              <button
+                class="scaleButton"
+                value="B major chord"
+              >
+                B major chord
+              </button>
+              <br />
+              <span>
+                B4-D#5-F#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="C# minor chord"
+              >
+                C# minor chord
+              </button>
+              <br />
+              <span>
+                C#5-E5-G#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="D# minor chord"
+              >
+                D# minor chord
+              </button>
+              <br />
+              <span>
+                D#5-F#5-A#5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="E major chord"
+              >
+                E major chord
+              </button>
+              <br />
+              <span>
+                E5-G#5-B5
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="F# major chord"
+              >
+                F# major chord
+              </button>
+              <br />
+              <span>
+                F#5-A#5-C#6
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="G# minor chord"
+              >
+                G# minor chord
+              </button>
+              <br />
+              <span>
+                G#5-B5-D#6
+              </span>
+            </li>
+            <li>
+              <button
+                class="scaleButton"
+                value="A# semi-diminished chord"
+              >
+                A# semi-diminished chord
+              </button>
+              <br />
+              <span>
+                A#5-C#6-E6
+              </span>
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </main>
+    <footer>
+      <a
+        href="/"
+      >
+        Back to home
+      </a>
+    </footer>
+  </div>
+</div>
+`;
