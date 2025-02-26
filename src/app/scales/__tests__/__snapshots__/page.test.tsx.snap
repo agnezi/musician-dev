@@ -21,6 +21,11 @@ exports[`scales page renders scales page unchanged 1`] = `
           >
             C Major
           </button>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
           <span>
             C4
              
@@ -62,6 +67,11 @@ exports[`scales page renders scales page unchanged 1`] = `
              
              
           </span>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
         </li>
         <li>
           <button
@@ -70,6 +80,11 @@ exports[`scales page renders scales page unchanged 1`] = `
           >
             D Major
           </button>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
           <span>
             D4
              
@@ -111,6 +126,11 @@ exports[`scales page renders scales page unchanged 1`] = `
              
              
           </span>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
         </li>
         <li>
           <button
@@ -119,6 +139,11 @@ exports[`scales page renders scales page unchanged 1`] = `
           >
             E Major
           </button>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
           <span>
             E4
              
@@ -160,6 +185,11 @@ exports[`scales page renders scales page unchanged 1`] = `
              
              
           </span>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
         </li>
         <li>
           <button
@@ -168,6 +198,11 @@ exports[`scales page renders scales page unchanged 1`] = `
           >
             F Major
           </button>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
           <span>
             F4
              
@@ -209,6 +244,11 @@ exports[`scales page renders scales page unchanged 1`] = `
              
              
           </span>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
         </li>
         <li>
           <button
@@ -217,6 +257,11 @@ exports[`scales page renders scales page unchanged 1`] = `
           >
             G Major
           </button>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
           <span>
             G4
              
@@ -258,6 +303,11 @@ exports[`scales page renders scales page unchanged 1`] = `
              
              
           </span>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
         </li>
         <li>
           <button
@@ -266,6 +316,11 @@ exports[`scales page renders scales page unchanged 1`] = `
           >
             A Major
           </button>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
           <span>
             A4
              
@@ -307,6 +362,11 @@ exports[`scales page renders scales page unchanged 1`] = `
              
              
           </span>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
         </li>
         <li>
           <button
@@ -315,6 +375,11 @@ exports[`scales page renders scales page unchanged 1`] = `
           >
             B Major
           </button>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
           <span>
             B4
              
@@ -356,6 +421,11 @@ exports[`scales page renders scales page unchanged 1`] = `
              
              
           </span>
+          <div
+            class="breakLine"
+          >
+            <br />
+          </div>
         </li>
       </ol>
     </main>

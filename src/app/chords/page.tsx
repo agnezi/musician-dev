@@ -1,49 +1,15 @@
 'use client';
 
-import { naturalScalesChords } from '@/utils/chords';
 import styles from './page.module.css';
-import { Chord, Note } from '@/types/note.type';
+import { Note } from '@/types/note.type';
 
 import { useState } from 'react';
 import * as Tone from 'tone';
 import Link from 'next/link';
+import { majorNaturalHarmonicField } from '@/utils/harmonicFields';
 
 export default function Page() {
   const [isAudioReady, setIsAudioReady] = useState(false);
-
-  const majorScales: Array<{
-    scaleName: string;
-    chords?: Chord[];
-  }> = [
-    {
-      scaleName: 'C Major',
-      chords: naturalScalesChords.cMajor,
-    },
-    {
-      scaleName: 'D Major',
-      chords: naturalScalesChords.dMajor,
-    },
-    {
-      scaleName: 'E Major',
-      chords: naturalScalesChords.eMajor,
-    },
-    {
-      scaleName: 'F Major',
-      chords: naturalScalesChords.fMajor,
-    },
-    {
-      scaleName: 'G Major',
-      chords: naturalScalesChords.gMajor,
-    },
-    {
-      scaleName: 'A Major',
-      chords: naturalScalesChords.aMajor,
-    },
-    {
-      scaleName: 'B Major',
-      chords: naturalScalesChords.bMajor,
-    },
-  ];
 
   async function playChordOf(notes: Note[]) {
     if (!isAudioReady) {
@@ -69,7 +35,7 @@ export default function Page() {
       </header>
       <main className={styles.main}>
         <ol>
-          {majorScales.map(scale => (
+          {majorNaturalHarmonicField.map(scale => (
             <li key={scale.scaleName}>
               {scale.scaleName}
               <ul className={styles.chordListPlayable}>

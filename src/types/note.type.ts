@@ -7,3 +7,9 @@ export type Chord = {
   name: string;
   notes: Note[];
 };
+
+export type HarmonicField = Array<{
+  scaleName: string;
+  notes?: Note[];
+  chords?: Chord[];
+}>;
