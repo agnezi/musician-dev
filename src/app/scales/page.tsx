@@ -1,48 +1,14 @@
 'use client';
 
+import { majorNaturalHarmonicField } from '@/utils/harmonicFields';
 import styles from './page.module.css';
 import { Note } from '@/types/note.type';
-import { naturalScales } from '@/utils/scales';
 import Link from 'next/link';
 import { useState } from 'react';
 import * as Tone from 'tone';
 
 export default function Page() {
   const [isAudioReady, setIsAudioReady] = useState(false);
-
-  const majorScales: Array<{
-    scaleName: string;
-    notes: Note[];
-  }> = [
-    {
-      scaleName: 'C Major',
-      notes: naturalScales.cMajor,
-    },
-    {
-      scaleName: 'D Major',
-      notes: naturalScales.dMajor,
-    },
-    {
-      scaleName: 'E Major',
-      notes: naturalScales.eMajor,
-    },
-    {
-      scaleName: 'F Major',
-      notes: naturalScales.fMajor,
-    },
-    {
-      scaleName: 'G Major',
-      notes: naturalScales.gMajor,
-    },
-    {
-      scaleName: 'A Major',
-      notes: naturalScales.aMajor,
-    },
-    {
-      scaleName: 'B Major',
-      notes: naturalScales.bMajor,
-    },
-  ];
 
   async function playScaleOf(notes: Note[]) {
     if (!isAudioReady) {
@@ -64,20 +30,30 @@ export default function Page() {
       </header>
       <main className={styles.main}>
         <ol>
-          {majorScales.map(scale => (
+          {majorNaturalHarmonicField.map(scale => (
             <li key={scale.scaleName}>
               <button
                 value={scale.scaleName}
                 className={styles.scaleButton}
-                onClick={() => playScaleOf(scale.notes)}
+                onClick={() => (scale.notes ? playScaleOf(scale.notes) : null)}
               >
                 {scale.scaleName}
               </button>
-              {scale.notes.map((note, index) => (
+              <div className={styles.breakLine}>
+                <br />
+              </div>
+              {scale.notes?.map((note, index) => (
                 <span key={note}>
-                  {note} {scale.notes.length - 1 === index ? '' : '-'}{' '}
+                  {note}{' '}
+                  {Array.isArray(scale.notes) &&
+                  scale.notes.length - 1 === index
+                    ? ''
+                    : '-'}{' '}
                 </span>
               ))}
+              <div className={styles.breakLine}>
+                <br />
+              </div>
             </li>
           ))}
         </ol>
