@@ -108,6 +108,17 @@ a.secondary {
   flex-shrink: 0;
 }
 
+.breakLine {
+  display: none;
+}
+
+.scaleButton {
+  margin-right: 20px;
+  padding: 4px;
+  border-style: none;
+  border-radius: 4px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -159,17 +170,14 @@ a.secondary {
     align-items: center;
     justify-content: center;
   }
+
+  .breakLine {
+    display: block;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
   }
-}
-
-.scaleButton {
-  margin-right: 20px;
-  padding: 4px;
-  border-style: none;
-  border-radius: 4px;
 }
