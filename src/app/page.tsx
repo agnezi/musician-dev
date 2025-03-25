@@ -15,6 +15,9 @@ export default function Page() {
           <li>
             <Link href={'/chords'}>Chords</Link>
           </li>
+          <li>
+            <Link href={'/fretboard'}>Fretboard</Link>
+          </li>
         </ol>
       </main>
     </div>
